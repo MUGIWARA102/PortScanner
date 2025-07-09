@@ -1,3 +1,5 @@
+# Logging utility for clean and powerful log messages
 loguru==0.7.0
+
+# System monitoring tools (optional, if you want to log CPU/memory usage)
 psutil==5.9.0
-PyQt5==5.15.4  # Only include if using GUI
