@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/MUGIWARA102/portscanner.git'
+                git branch: 'main' 'https://github.com/MUGIWARA102/PortScanner.git'
             }
         }
 
