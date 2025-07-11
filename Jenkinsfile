@@ -28,7 +28,7 @@ pipeline {
             }
         }
 
-        stage('Archive Results') {
+       stage('Archive Results') {
             steps {
                 archiveArtifacts artifacts: 'scan_output.txt', fingerprint: true
             }
