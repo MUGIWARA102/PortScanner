@@ -20,7 +20,7 @@ pipeline {
 
         stage('Run Scan') {
             steps {
-                sh "python3 portscanner.py ${params.TARGET_IP} > scan_output.txt"
+                sh "python3 main.py ${params.TARGET_IP} > scan_output.txt"
             }
         }
 
